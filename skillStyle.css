@@ -1,0 +1,349 @@
+.skill{
+  width: 100%;
+  color:white;
+  background: #000;
+  position: relative;
+}
+
+.skill h1{
+  text-align: center;
+  color: aqua;
+  text-decoration:underline;
+  text-underline-offset: 10px;
+  padding-top: 50px;
+  
+}
+.skill h3{
+  color: orangered;
+  letter-spacing: 2px;
+  padding-top:20px;
+  text-align: center;
+}
+#clickMsg{
+  text-align: center;
+  margin: 20px 20px;
+  color: rgb(110, 104, 104);
+}
+.pl{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.sm-box{
+  margin:20px;
+}
+  /* java boxes is here */
+
+
+.java-box{
+  width:100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid aqua;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  z-index:98;
+}
+.java-box::after{
+    position: absolute;
+    content: '';
+    width:0;
+    height: 100%;
+    background:aqua;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    color:black;
+    justify-content: center;
+    transition: width 0.5s linear 0.1s;
+}
+.java-box:hover::after{
+  content: '80%';
+  width: 100%;
+}
+
+.java-box:hover{
+  border:2px solid white;
+}
+.java-box i{
+  padding-top: 5px;
+  font-size: 3rem;
+  color:aqua;
+
+}
+
+
+  /* python box is here */
+
+.py-box{
+  width:100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid aqua;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  z-index:98;
+}
+.py-box::after{
+    position: absolute;
+    content: '';
+    width:0;
+    height: 100%;
+    background:aqua;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    color:black;
+    justify-content: center;
+    transition: width 0.5s linear 0.1s;
+}
+.py-box:hover::after{
+  content: '65%';
+  width: 100%;
+}
+
+.py-box:hover{
+  border:2px solid white;
+}
+.py-box i{
+  padding: 5px;
+  font-size: 3rem;
+  color:aqua;
+}
+.py-box p{
+  font-size: 0.8rem;
+  padding:10px;
+}
+
+
+.c-box{
+  width:100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid aqua;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  z-index:98;
+}
+.c-box::after{
+    position: absolute;
+    content: '';
+    width:0;
+    height: 100%;
+    background:aqua;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    color:black;
+    justify-content: center;
+    transition: width 0.5s linear 0.1s;
+}
+.c-box:hover::after{
+  content: '70%';
+  width: 100%;
+}
+
+.c-box:hover{
+  border:2px solid white;
+}
+.c-box i{
+  padding-top: 5px;
+  font-size: 1.5rem;
+  color:aqua;
+
+}
+
+
+   /* html box is here */
+   
+.html-box{
+  width:100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid aqua;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  z-index:98;
+}
+.html-box::after{
+    position: absolute;
+    content: '';
+    width:0;
+    height: 100%;
+    background:aqua;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    color:black;
+    justify-content: center;
+    transition: width 0.5s linear 0.1s;
+}
+.html-box:hover::after{
+  content: '90%';
+  width: 100%;
+}
+
+.html-box:hover{
+  border:2px solid white;
+}
+.html-box i{
+  padding-top: 5px;
+  font-size: 1.5rem;
+  color:aqua;
+
+}
+
+
+   /* css box is here */
+   
+.css-box{
+  width:100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid aqua;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  z-index:98;
+}
+.css-box::after{
+    position: absolute;
+    content: '';
+    width:0;
+    height: 100%;
+    background:aqua;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    color:black;
+    justify-content: center;
+    transition: width 0.5s linear 0.1s;
+}
+.css-box:hover::after{
+  content: '95%';
+  width: 100%;
+}
+
+.css-box:hover{
+  border:2px solid white;
+}
+.css-box i{
+  padding-top: 5px;
+  font-size: 1.5rem;
+  color:aqua;
+
+}
+ /* js box is here */
+ 
+.js-box{
+  width:100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid aqua;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  z-index:98;
+}
+.js-box::after{
+    position: absolute;
+    content: '';
+    width:0;
+    height: 100%;
+    background:aqua;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    color:black;
+    justify-content: center;
+    transition: width 0.5s linear 0.1s;
+}
+.js-box:hover::after{
+  content: '85%';
+  width: 100%;
+}
+
+.js-box:hover{
+  border:2px solid white;
+}
+.js-box i{
+  padding-top: 5px;
+  font-size: 1.5rem;
+  color:aqua;
+
+}
+
+   /* react box is here */
+   
+.react-box{
+  width:100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid aqua;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  z-index:98;
+}
+.react-box::after{
+    position: absolute;
+    content: '';
+    width:0;
+    height: 100%;
+    background:aqua;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    color:black;
+    justify-content: center;
+    transition: width 0.5s linear 0.1s;
+}
+.react-box:hover::after{
+  content: '80%';
+  width: 100%;
+}
+
+.react-box:hover{
+  border:2px solid white;
+}
+.react-box i{
+  padding-top: 5px;
+  font-size: 1.5rem;
+  color:aqua;
+
+}

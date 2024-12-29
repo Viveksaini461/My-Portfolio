@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vivek saini portfolio</title>
+  <link rel="stylesheet" href="indexStyle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+  <link rel="stylesheet" href="AboutStyle.css">
+  <link rel="stylesheet" href="ProjectStyle.css">
+  <link rel="stylesheet" href="skillStyle.css">
+  <link rel="stylesheet" href="contactForm.css">
+</head>
+<body>
+    <header class="navbar">
+      <div class="logo"><a href="#home"><span>>></span>Portfolio<span>...</span></a></div>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="toggle">
+        <i class="fa fa-bars"></i>
+      </div>
+    </header>
+    <div class="sidebar" id="sidebar">
+      <li><a href="#about" onclick="hideSidebar()">About</a></li>
+      <li><a href="#skill" onclick="hideSidebar()">Skills</a></li>
+      <li><a href="#projects" onclick="hideSidebar()">Projects</a></li>
+      <li><a href="#contact" onclick="hideSidebar()">Contact</a></li>
+    </div>
+     <main>
+    <section id="home">
+       <div class="home-container1">
+              <h3>Frontend Web Developer</h3>
+              <h1>Hi, I am <span>Vivek</span></h1>
+              <p> I am a CSE Student from JUET , GUNA</p>
+              <a href="resumemsg.text" download="vivek saini CV">Download CV <i class="fa fa-download"></i>
+              </a>
+       </div>
+       <div class="home-container2">
+             <img src="Images/pngwing.com.png"></img>
+       </div>
+    </section>
+    <section id="about" class="about">
+      <div class="about-container1">
+        <img src="Images/about-img.png" alt="">
+      </div>
+      <div class="about-container2">
+          <h2>About Me</h2>
+          <p>I am a detail-oriented software developer and Competitive Programmer pursuing Btech with hands-on experience in HTML, CSS, JS , React.js. I am passionate about solving complex problems and developing innovative solutions With strong communication and collaboration skills, I am eager to contribute to a challenging software development role and continue to grow 
+            as a developer.</p>
+            <ul class="ul-list">
+              <li id="li-pd"onclick ="showPersonalInfo()"><a href="#personal-content" >Personal Details</a></li>
+              <li id="li-loc"onclick = "showLocation()"><a href="#loc-content">Education</a></li>
+            </ul>
+            <div class="personalContent" id="personalContent">
+              <p>Name - <span>Vivek Saini</span></p>
+              <p>Age - <span>20 year</span></p>
+              <p>DOB - <span>25 Dec 2004</span></p>
+              <p>Address - <span>Raghogarh , dist. Guna(M.P),India</span></p>
+            </div>
+            <div class="education" id="education">
+               <p>Primary Schooling - <span>Saraswati shishu mandir , Raghogarh</span></p>
+               <p>Higher Schooling - <span>Govt. Boys high secondary school , Raghogarh</span></p>
+               <p>College - <span>Jaypee university of engineering and technology , GUNA</span></p>
+            </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <h1>My Projects</h1>
+      <div class="bigBox">
+          <div class="box" id="box1">
+           <img src="Images/peopleinfo-img.png" alt="">
+           <h1>People Info</h1>
+           <p>My project is a dynamic website designed to share captivating short stories about famous personalities, including cricketers, actors, film stars, politicians, and more. Built with a robust stack of technologies such as HTML, CSS, JavaScript, and ReactJS, the platform offers an engaging and user-friendly interface.
+           </p>
+           <div><span>#html</span> <span>#css</span> <span>#JS</span> <span>#Reactjs</span></div>
+          </div>
+          <div class="box">
+            <img src="Images/bus-img.png" alt="">
+            <h1>Bus Booking System</h1>
+            <p>It is a fully functional bus reservation system developed using Tkinter (GUI), SQLite, and Python, This reservation system has three modules. First module helps the customer to enquire the availability of seats in a particular bus at particular date. Second module helps him to reserve a ticket. Using third module he can cancel a reserved ticket. It manages all the information about Bus, Customers, Seats.</p>
+            <div><span>#Python</span> <span>#Tkinter(GUI)</span> <span>#SQLite</span></div>
+          </div>
+          <div class="box">
+            <img src="Images/face-detection-img.jpg" alt="">
+            <h1>Face Recognition attendance System</h1>
+            <p>Our project is a face detection attendance system that makes taking attendance quick and easy. It uses Python's FaceRecognition library to identify faces and the Pickle library to store and update data. 
+          </p>
+          <div><span>#Python</span> <span>#Facerecognition</span> <span>#SQLite</span> <span>#Pickle</span> <span>#Tkinter(GUI)</span></div>
+          </div>
+      </div>
+    </section>
+    <section class="skill" id="skill">
+      <h1>My Tech stack</h1>
+        <h3>Programing Languages</h3>
+        <p id="clickMsg">&darr;Click or hover on skills</p>
+        <div class="pl">
+          <div class="sm-box java-box">
+          <i class="fa-brands fa-java  fa-lg"></i>
+          <p>Java</p>
+        </div>
+        <div class="sm-box py-box">
+          <i class="fa-brands fa-python"></i>
+          <p>python</p>
+        </div>
+        <div class="sm-box c-box">
+          <i>C++</i>
+          <p>C plus</p>
+        </div>
+        </div>
+        <h3>Frontend Web Development</h3>
+        <div class="pl">
+          <div class="sm-box html-box">
+          <i class="fa-brands fa-html5"></i>
+          <p>HTML</p>
+        </div>
+        <div class="sm-box css-box">
+          <i class="fa-brands fa-css3-alt"></i>
+          <p>CSS</p>
+        </div>
+        <div class="sm-box js-box">
+          <i class="fa-brands fa-square-js"></i>
+          <p>JS</p>
+        </div>
+        <div class="sm-box react-box">
+          <i class="fa-brands fa-react"></i>
+          <p>React</p>
+        </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="bigBox">
+          <div class="skill-box">
+           <div class="sk-box">
+            <i class="fa-solid fa-code fa-flip"></i>
+            <h1>Frontend Web Developer</h1>
+           </div>
+          </div>
+          <div class="skill-box">
+            <div class="sk-box">
+              <i class="fa-brands fa-react fa-bounce"></i>
+             <h1>ReactJs Developer</h1>
+            </div>
+           </div>
+           <div class="skill-box">
+            <div class="sk-box">
+              <i class="fa-solid fa-screwdriver-wrench fa-spin-pulse"></i>
+             <h1>Machine Learning</h1>
+            </div>
+           </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="contact-container1">
+           <h1>Contact Me</h1>
+           <i class="fa-brands fa-telegram"><span>@Sainivivek18</span></i>
+           <i class="fa-regular fa-envelope"><span>vsaini32907@gmail.com</span></i>
+           <div class="social-icons">
+            <a href="https://github.com/Viveksaini461"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/vivek-saini-745121256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/vivek__saini?igsh=dmY3Y2dwMzk2YjZh"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+      </div>
+     
+      <div class="contact-container2">
+        <form  action="" id="contactForm">
+           <p>GET IN TOUCH</p>
+           <div class="red-alert" id="red-alert"><i class="fa-solid fa-x"></i>  Fill all form fields !!</div>
+
+           <div class="alert" id="alert"><i class="fa-solid fa-check"></i>  successfully sent</div>
+          <label for="">Your Name</label><input type="text" placeholder="what's your name ?" id="name">
+          <label for="">Your Email</label><input type="email" placeholder="what's your email ?" id="emailid">
+          <label for="">Your Message</label><textarea name="aboutyourself" id="msgContent" rows="5" cols="20" placeholder="what do you want to say ?"></textarea>
+
+          <div class="btns">
+            <button type="submit">send</button>
+        </div>
+          </form>
+      </div>
+    </section>
+      <section class="footer">
+        <p>Copyright © vivek. Made with ♥ by vivek saini</p>
+      </section>
+  </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="indexScript.js"></script>
+    <script src="database.js"></script>
+</body>
+</html>

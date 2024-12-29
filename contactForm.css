@@ -1,0 +1,145 @@
+.contact{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background: rgb(19, 18, 18);
+  /* border-top: 2px solid aqua; */
+}
+.contact-container1{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.contact-container1 h1{
+  margin-top: 50px;
+  padding: 10px 5px;
+  color: aqua;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+.contact-container1 i{
+  color:red;
+  font-size: 2rem;
+}
+.contact-container1 i span{
+  color:white;
+  font-size: 1rem;
+  padding-left: 10px;
+  font-family: 'Poppins';
+}
+.contact-container2{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.social-icons{
+  margin-top: 20px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+.social-icons a{
+  margin-left: 20px;
+  padding: 5px;
+}
+.social-icons a:hover{
+  background: red;
+}
+.social-icons i{
+  color:aqua;
+  border-radius: 10px;
+}
+
+form{
+  width:400px;
+ background:rgb(44, 29, 72);
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ justify-content: flex-start;
+ margin-top: 50px;
+ border-radius: 15px;
+ margin-bottom: 50px;
+ /* filter:drop-shadow(rgb(73, 72, 98) 10px 10px 5px) */
+
+}
+form p{
+  margin:20px 20px;
+  color: rgb(110, 104, 104);
+}
+.alert{
+  width: 80%;
+  background: green;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 15px;
+  margin-left:30px;
+  font-size: 18px;
+  font-weight: 600;
+  display: none;
+}
+.red-alert{
+  width: 80%;
+  background: red;
+  text-align: center;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  margin-left:30px;
+  font-size: 18px;
+  font-weight: 600;
+  display: none;
+}
+form input{
+  width:80%;
+  height: 40px;
+  margin: 10px;
+  padding: 20px;
+  font-size:1.2rem;
+  background: rgb(45, 48, 86);
+  color:whitesmoke;
+  border:1px solid grey;
+}
+form label{
+  padding-left: 20px;
+  color: white;
+}
+form textarea{
+  background:rgb(45, 48, 86);
+  color:whitesmoke;
+  font-size:1.2rem;
+  margin: 10px;
+  border:1px solid grey;
+  padding: 10px;
+  width: 80%;
+}
+.btns{
+  display: flex;
+
+}
+.btns button{
+  border-radius: 15px;
+  background: rgb(18, 34, 34);
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin:20px;
+  padding:10px;
+  border: none;
+  color: white;
+
+}
+.btns button:hover{
+  background: rgb(38, 85, 85);
+}
